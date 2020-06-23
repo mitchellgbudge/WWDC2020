@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  WWDC
+//  Shared
 //
 //  Created by Mitchell Budge on 6/23/20.
 //
