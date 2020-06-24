@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		6EB4B01E24A28D5E009462D1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B01D24A28D5E009462D1 /* Tests_iOS.swift */; };
 		6EB4B02924A28D5E009462D1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B02824A28D5E009462D1 /* Tests_macOS.swift */; };
-		6EB4B02B24A28D5E009462D1 /* WWDC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B00224A28D5B009462D1 /* WWDC2020App.swift */; };
-		6EB4B02C24A28D5E009462D1 /* WWDC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B00224A28D5B009462D1 /* WWDC2020App.swift */; };
+		6EB4B02B24A28D5E009462D1 /* SwiftUICommonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B00224A28D5B009462D1 /* SwiftUICommonApp.swift */; };
+		6EB4B02C24A28D5E009462D1 /* SwiftUICommonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B00224A28D5B009462D1 /* SwiftUICommonApp.swift */; };
 		6EB4B02D24A28D5E009462D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B00324A28D5B009462D1 /* ContentView.swift */; };
 		6EB4B02E24A28D5E009462D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4B00324A28D5B009462D1 /* ContentView.swift */; };
 		6EB4B02F24A28D5E009462D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB4B00424A28D5E009462D1 /* Assets.xcassets */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6EB4B00224A28D5B009462D1 /* WWDC2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2020App.swift; sourceTree = "<group>"; };
+		6EB4B00224A28D5B009462D1 /* SwiftUICommonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICommonApp.swift; sourceTree = "<group>"; };
 		6EB4B00324A28D5B009462D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EB4B00424A28D5E009462D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EB4B00924A28D5E009462D1 /* WWDC2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB4B00924A28D5E009462D1 /* SwiftUICommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB4B00C24A28D5E009462D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB4B01124A28D5E009462D1 /* WWDC2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB4B01124A28D5E009462D1 /* SwiftUICommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB4B01324A28D5E009462D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB4B01424A28D5E009462D1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		6EB4B01924A28D5E009462D1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +98,7 @@
 		6EB4B00124A28D5B009462D1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				6EB4B00224A28D5B009462D1 /* WWDC2020App.swift */,
+				6EB4B00224A28D5B009462D1 /* SwiftUICommonApp.swift */,
 				6EB4B00324A28D5B009462D1 /* ContentView.swift */,
 				6EB4B00424A28D5E009462D1 /* Assets.xcassets */,
 			);
@@ -108,8 +108,8 @@
 		6EB4B00A24A28D5E009462D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EB4B00924A28D5E009462D1 /* WWDC2020.app */,
-				6EB4B01124A28D5E009462D1 /* WWDC2020.app */,
+				6EB4B00924A28D5E009462D1 /* SwiftUICommon.app */,
+				6EB4B01124A28D5E009462D1 /* SwiftUICommon.app */,
 				6EB4B01924A28D5E009462D1 /* Tests iOS.xctest */,
 				6EB4B02424A28D5E009462D1 /* Tests macOS.xctest */,
 			);
@@ -168,7 +168,7 @@
 			);
 			name = iOS;
 			productName = iOS;
-			productReference = 6EB4B00924A28D5E009462D1 /* WWDC2020.app */;
+			productReference = 6EB4B00924A28D5E009462D1 /* SwiftUICommon.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6EB4B01024A28D5E009462D1 /* macOS */ = {
@@ -185,7 +185,7 @@
 			);
 			name = macOS;
 			productName = macOS;
-			productReference = 6EB4B01124A28D5E009462D1 /* WWDC2020.app */;
+			productReference = 6EB4B01124A28D5E009462D1 /* SwiftUICommon.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6EB4B01824A28D5E009462D1 /* Tests iOS */ = {
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EB4B00024A28D5B009462D1 /* Build configuration list for PBXProject "WWDC2020" */;
+			buildConfigurationList = 6EB4B00024A28D5B009462D1 /* Build configuration list for PBXProject "SwiftUICommon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -309,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB4B02D24A28D5E009462D1 /* ContentView.swift in Sources */,
-				6EB4B02B24A28D5E009462D1 /* WWDC2020App.swift in Sources */,
+				6EB4B02B24A28D5E009462D1 /* SwiftUICommonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB4B02E24A28D5E009462D1 /* ContentView.swift in Sources */,
-				6EB4B02C24A28D5E009462D1 /* WWDC2020App.swift in Sources */,
+				6EB4B02C24A28D5E009462D1 /* SwiftUICommonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.WWDC2020;
-				PRODUCT_NAME = WWDC2020;
+				PRODUCT_NAME = SwiftUICommon;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +502,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.WWDC2020;
-				PRODUCT_NAME = WWDC2020;
+				PRODUCT_NAME = SwiftUICommon;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +528,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WWDC2020;
-				PRODUCT_NAME = WWDC2020;
+				PRODUCT_NAME = SwiftUICommon;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -552,7 +552,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WWDC2020;
-				PRODUCT_NAME = WWDC2020;
+				PRODUCT_NAME = SwiftUICommon;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -650,7 +650,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EB4B00024A28D5B009462D1 /* Build configuration list for PBXProject "WWDC2020" */ = {
+		6EB4B00024A28D5B009462D1 /* Build configuration list for PBXProject "SwiftUICommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EB4B03124A28D5E009462D1 /* Debug */,
